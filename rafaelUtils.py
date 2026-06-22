@@ -1,7 +1,8 @@
 # ========== 0. FUNCOES ==========
 def formatar_cnpj(cnpj):
     '''
-    Formatação de cnpj 
+    Formatação de cnpj, 
+    funciona quando o cnpj está em formato numérico
     '''
     if pd.isna(cnpj):
         return None
